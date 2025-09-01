@@ -1,8 +1,8 @@
 [package]
 name = "sinnetic-master360"
 version = "0.1.0"
-description = "A Tauri App"
-authors = ["you"]
+description = "Sinnetic Master360 - Aplicación de escritorio para gestión de datos"
+authors = ["Yerson Alexander Arredondo García <yerson-302@hotmail.com>"]
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -22,4 +22,6 @@ tauri = { version = "2", features = [] }
 tauri-plugin-opener = "2"
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
+tauri-plugin-os = "2"
 
+whoami = "1.6.1"

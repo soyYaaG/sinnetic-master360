@@ -12,9 +12,13 @@
   "app": {
     "windows": [
       {
-        "title": "sinnetic-master360",
-        "width": 800,
-        "height": 600
+        "title": ".::Sinnetic Master360::.",
+        "minWidth": 1100,
+        "minHeight": 600,
+        "width": 1100,
+        "height": 600,
+
+        "maximized": true
       }
     ],
     "security": {
